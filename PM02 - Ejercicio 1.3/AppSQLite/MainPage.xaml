@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSQLite.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0">
+            <Label Text="Agenda SQLite" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Image Source="https://www.uth.hn/wp-content/uploads/2019/12/logo-1.png"
+         HeightRequest="200"
+         WidthRequest="600"
+         HorizontalOptions="CenterAndExpand"
+         Aspect="Fill"/>
+        <Button HorizontalOptions="Center" VerticalOptions="Center" Text="Crear Contactos" Clicked="Button_Clicked"></Button>
+        <Button x:Name="btnListPersons" HorizontalOptions="Center" VerticalOptions="Center" Text="Lista de Contactos" Clicked="btnListPersons_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
